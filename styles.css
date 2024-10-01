@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+body {
+    font-family: "Open Sans", sans-serif,Arial, Helvetica;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2{
+    font-size: 40px;
+    font-weight: bolder;
+}
+h3{
+    font-size: 25px;
+    font-weight: bolder 
+}
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+main {
+    text-align: center;
+}
+p {
+    padding: 0 30%;
+    font-size: 20px;
+    text-align: left;
+  }
+
+section {
+    margin-bottom: 5%;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+img{
+    width: 820px;
+    height: 420px;
+    border-radius: 15px;
+}
+
+h3{
+    padding: 0 30%;
+    text-align: left;
+}
+
+.computacaoBasica ul,ol{
+    padding: 0 30%;
+    font-size: 20px;
+    text-align: left;
+}
+
+.computadores img{
+    width: 280px;
+    height: 160px;
+}
+.container img{
+    width: 320px;
+    height: 320px;
+}
+
+#teclado img{
+    width:680px;
+    height: auto;
+}
+
+.container1 img{
+    width: 480px;
+    height: auto;
+}
+
+.chart-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin: 20px 0; 
+}
+
+.lista2 ul{
+    padding: 0 10%;
+    text-align: left;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+}
+label {
+    font-weight: bold;
+}
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #218838;
+}
+
+.imagem_1 img{
+    width: auto; 
+    height: 600px;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+    
+    body {
+        padding: 0 10px; /* Reduzir padding do corpo */
+        box-sizing: ;
+    }
+
+    header, footer {
+        padding: 20px; /* Aumentar padding em cabeçalho e rodapé para melhor toque em telas pequenas */
+        
+    }
+
+    h2 {
+        font-size: 1.8rem; /* Tamanho menor para h2 */
+    }
+
+    h3 {
+        font-size: 1.3rem; /* Tamanho menor para h3 */
+    }
+
+    h3{
+        padding: 0;
+    }
+    p {
+        font-size: 1rem; /* Ajustar tamanho do parágrafo */
+        padding: 0; /* Remover padding lateral em parágrafos */
+    }
+
+    
+    nav ul li {
+        display: block; /* Exibir itens de menu em bloco */
+        margin: 5px 0; /* Margem vertical entre itens de menu */
+    }
+
+    .computacaoBasica ul, .computacaoBasica ol,
+    .lista2 ul {
+        padding: 0; /* Remover padding lateral em listas */
+        padding-left: 25px;
+    }
+
+    ul, ol{
+        padding: 0;
+        padding-left: 25px;
+    }
+    form {
+        padding: 15px; /* Reduzir padding no formulário */
+        width: 100%; /* Garantir que o formulário use 100% da largura disponível */
+    }
+
+    input, select, textarea {
+        font-size: 0.9rem; /* Reduzir tamanho da fonte para inputs */
+    }
+
+    button {
+        width: 100%; /* Botão ocupa toda a largura */
+    }
+
+    img {
+        width: 100%; /* Imagens responsivas */
+        height: auto; /* Manter proporção */
+    }
+
+   
+    #teclado img{
+        width: 100%; /* Imagens responsivas */
+        height: auto; /* Manter proporção */
+    }
+
+    .container1 img {
+        width: 100%; /* Imagens responsivas */
+        height: auto; /* Manter proporção */
+    }
+    
+    .chart-container {
+        flex-direction: column; /* Colocar gráfico em coluna */
+    }
+}
+

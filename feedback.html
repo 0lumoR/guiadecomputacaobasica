@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaliação do Site</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Guia de Computação Básica</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Introdução</a></li>
+                <li><a href="hardware-software.html">Hardware e Software</a></li>
+                <li><a href="sistemaoperacional.html">Sistema Operacional</a></li>
+                <li><a href="navegacao.html">Navegação na Internet</a></li>
+                <li><a href="seguranca.html">Dicas de Segurança</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Avaliação do Site</h2>
+
+            <form action="https://formsubmit.co/romulo_doa@hotmail.com" method="POST">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required placeholder="Digite seu nome">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="Digite seu email">
+                <input type="hidden" name="_next" value="https://seusite.com/obrigado.html">
+                <input type="hidden" name="_subject" value="Avaliação do Site">
+                <input type="hidden" name="_captcha" value="false">
+
+                <label for="sexo">Sexo:</label>
+                <select id="sexo" name="sexo" required>
+                    <option value="">Selecione</option>
+                    <option value="masculino">Masculino</option>
+                    <option value="feminino">Feminino</option>
+                    <option value="outro">Outro</option>
+                </select>
+
+                <label for="idade">Idade:</label>
+                <input type="number" id="idade" name="idade" min="1" max="120" required placeholder="Sua idade">
+                <br>
+                <br>
+                <label for="pergunta1">1. Como você avalia a experiência de navegação no site?</label>
+                <select id="pergunta1" name="pergunta1" required>
+                    <option value="">Selecione</option>
+                    <option value="1">1 - Muito Ruim</option>
+                    <option value="2">2 - Ruim</option>
+                    <option value="3">3 - Regular</option>
+                    <option value="4">4 - Bom</option>
+                    <option value="5">5 - Excelente</option>
+                </select>
+
+                <label for="pergunta2">2. O design do site é atraente?</label>
+                <select id="pergunta2" name="pergunta2" required>
+                    <option value="">Selecione</option>
+                    <option value="1">1 - Muito Ruim</option>
+                    <option value="2">2 - Ruim</option>
+                    <option value="3">3 - Regular</option>
+                    <option value="4">4 - Bom</option>
+                    <option value="5">5 - Excelente</option>
+                </select>
+
+                <label for="pergunta3">3. A velocidade de carregamento do site é satisfatória?</label>
+                <select id="pergunta3" name="pergunta3" required>
+                    <option value="">Selecione</option>
+                    <option value="1">1 - Muito Lenta</option>
+                    <option value="2">2 - Lenta</option>
+                    <option value="3">3 - Regular</option>
+                    <option value="4">4 - Rápida</option>
+                    <option value="5">5 - Muito Rápida</option>
+                </select>
+
+                <label for="pergunta4">4. O conteúdo do guia de computação básica é claro e compreensível?</label>
+                <select id="pergunta4" name="pergunta4" required>
+                    <option value="">Selecione</option>
+                    <option value="1">1 - Totalmente claro</option>
+                    <option value="2">2 - Claro na maior parte</option>
+                    <option value="3">3 - Moderadamente claro</option>
+                    <option value="4">4 - Pouco claro</option>
+                    <option value="5">5 - Nada claro</option>
+                </select>
+
+                <label for="pergunta5">5. Você recomendaria este site para outras pessoas?</label>
+                <select id="pergunta5" name="pergunta5" required>
+                    <option value="">Selecione</option>
+                    <option value="1">1 - De jeito nenhum</option>
+                    <option value="2">2 - Provavelmente não</option>
+                    <option value="3">3 - Talvez</option>
+                    <option value="4">4 - Provavelmente sim</option>
+                    <option value="5">5 - Com certeza</option>
+                </select>
+
+                <label for="comentarios">Outros Comentários:</label>
+                <textarea id="comentarios" name="comentarios" rows="4" placeholder="Deixe seu comentário aqui..."></textarea>
+
+                <button type="submit">Enviar Avaliação</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Atividade Extensionista - Tecnologia Aplicada à Inclusão Digital - UNINTER 2024</p>
+    </footer>
+</body>
+
+</html>
