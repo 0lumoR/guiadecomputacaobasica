@@ -148,44 +148,42 @@ button:hover {
     height: 600px;
 }
 
-/* Media Queries for responsiveness */
 @media (max-width: 768px) {
     
     body {
-        padding: 0 10px; /* Reduzir padding do corpo */
-        box-sizing: ;
+        padding: 0 10px; 
     }
 
     header, footer {
-        padding: 20px; /* Aumentar padding em cabeçalho e rodapé para melhor toque em telas pequenas */
+        padding: 20px; 
         
     }
 
     h2 {
-        font-size: 1.8rem; /* Tamanho menor para h2 */
+        font-size: 1.8rem; 
     }
 
     h3 {
-        font-size: 1.3rem; /* Tamanho menor para h3 */
+        font-size: 1.3rem; 
     }
 
     h3{
         padding: 0;
     }
     p {
-        font-size: 1rem; /* Ajustar tamanho do parágrafo */
-        padding: 0; /* Remover padding lateral em parágrafos */
+        font-size: 1rem;
+        padding: 0; 
     }
 
     
     nav ul li {
-        display: block; /* Exibir itens de menu em bloco */
-        margin: 5px 0; /* Margem vertical entre itens de menu */
+        display: block; 
+        margin: 5px 0; 
     }
 
     .computacaoBasica ul, .computacaoBasica ol,
     .lista2 ul {
-        padding: 0; /* Remover padding lateral em listas */
+        padding: 0; 
         padding-left: 25px;
     }
 
@@ -194,36 +192,32 @@ button:hover {
         padding-left: 25px;
     }
     form {
-        padding: 15px; /* Reduzir padding no formulário */
-        width: 100%; /* Garantir que o formulário use 100% da largura disponível */
-    }
-
-    input, select, textarea {
-        font-size: 0.9rem; /* Reduzir tamanho da fonte para inputs */
+        padding: 10px; 
     }
 
     button {
-        width: 100%; /* Botão ocupa toda a largura */
+        width: 100%; 
+    }
+
+
+    input, select, textarea {
+        font-size: 0.9rem; 
     }
 
     img {
-        width: 100%; /* Imagens responsivas */
-        height: auto; /* Manter proporção */
+        width: 100%; 
+        height: auto; 
     }
 
    
     #teclado img{
-        width: 100%; /* Imagens responsivas */
-        height: auto; /* Manter proporção */
+        width: 100%; 
+        height: auto; 
     }
 
     .container1 img {
-        width: 100%; /* Imagens responsivas */
-        height: auto; /* Manter proporção */
-    }
-    
-    .chart-container {
-        flex-direction: column; /* Colocar gráfico em coluna */
+        width: 100%; 
+        height: auto; 
     }
 }
 
